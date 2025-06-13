@@ -1,0 +1,47 @@
+# Bundler
+.bundle
+/vendor/bundle
+
+# Rails logs and temp
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Active Storage
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Credentials and secrets
+/config/master.key
+.env
+.env.*
+
+# Kamal secrets
+.kamal/secrets
+.kamal/secrets/*
+!.kamal/secrets/.keep
+
+# Public assets (Webpacker/Vite等)
+node_modules/
+public/packs/
+public/packs-test/
+public/assets/
+.yarn-integrity
+
+# Editor/OS
+*.swp
+*.swo
+.DS_Store
+
+# Test coverage
+/coverage/
+
+# Docker
+*.pid
