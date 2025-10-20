@@ -6,7 +6,7 @@ ruby '3.2.8'
 
 gem 'rails', '~> 7.0.0'
 gem 'pg', '~> 1.1'
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 7.1'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # CORS対応（フロントエンドとの通信用）
